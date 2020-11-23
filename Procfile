@@ -1,2 +1,2 @@
-web: gunicorn wsgi:app
+web: gunicorn add:app
 heroku ps

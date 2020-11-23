@@ -8,3 +8,6 @@ def add():
     b=request.form['b']
     c=a+b
     return{'result':c}
+
+if __name__ == "__main__":
+    app.run(debug=True)

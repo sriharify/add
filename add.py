@@ -6,7 +6,7 @@ app = Flask(__name__)
 def add():
     a=request.form['a']
     b=request.form['b']
-    c=a+b
+    c=float(a)+float(b)
     return{'result':c}
 
 if __name__ == "__main__":
